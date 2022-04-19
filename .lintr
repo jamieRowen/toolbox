@@ -1,0 +1,9 @@
+linters: with_defaults(
+    line_length_linter(100),
+    assignment_linter = NULL,
+    cyclocomp_linter(complexity_limit = 25) # default value
+  )
+exclusions: list(
+    "^cache/"
+  )
+error_on_lint: TRUE
