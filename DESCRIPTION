@@ -19,3 +19,7 @@ Imports:
     tibble,
     webshot
 URL: https://jamierowen.github.io/toolbox/
+Suggests: 
+    shiny,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
