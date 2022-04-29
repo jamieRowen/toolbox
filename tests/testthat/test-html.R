@@ -1,4 +1,5 @@
 test_that("print html to png", {
+  skip_if_not(webshot::is_phantomjs_installed())
   # fake minimal shiny ui
   ui = shiny::fluidPage(
     shiny::tags$div("Hello World")
