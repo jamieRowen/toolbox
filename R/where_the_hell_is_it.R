@@ -12,7 +12,7 @@
 #' @param str Character to search for
 #' @export
 where_the_hell_is_it = function(str) {
-  p = installed.packages()[, 1]
+  p = utils::installed.packages()[, 1]
   pb = progress::progress_bar$new(
     total = length(p),
     format = "scanning  :what [:bar] :percent eta: :eta "
