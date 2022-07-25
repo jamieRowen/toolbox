@@ -1,8 +1,8 @@
 pandoc: 2.7.3
-pkgdown: 2.0.2
+pkgdown: 2.0.6
 pkgdown_sha: ~
 articles: {}
-last_built: 2022-04-19T15:17Z
+last_built: 2022-07-25T19:54Z
 urls:
   reference: https://jamierowen.github.io/toolbox/reference
   article: https://jamierowen.github.io/toolbox/articles
