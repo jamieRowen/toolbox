@@ -1,6 +1,6 @@
 Package: toolbox
 Title: Collection of tools for R programming
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person("Jamie", "Owen", , "jamie@jumpingrivers.com", role = c("aut", "cre"))
 Description: The package is a collection of functions that is destined to grow as I write
@@ -12,7 +12,14 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports: 
     dplyr,
+    htmltools,
     progress,
     purrr,
-    tibble
+    stringr,
+    tibble,
+    webshot
 URL: https://jamierowen.github.io/toolbox/
+Suggests: 
+    shiny,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
